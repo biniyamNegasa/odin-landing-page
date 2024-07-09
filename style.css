@@ -64,9 +64,6 @@ body {
     align-items: center;
 }
 
-.quote {
-    width: 820px;
-}
 .person {
     width: 750px;
     text-align: right;
@@ -110,10 +107,12 @@ ul {
     padding-bottom: 40px;
 }
 .quote {
+    width: 820px;
     font-size: 36px;
     font-weight: lighter;
     font-style: italic;
     color: #1f2937;
+    text-wrap: wrap;
 }
 
 
@@ -127,8 +126,8 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-
-    gap: 60px;
+    flex-wrap: wrap;
+    gap: 30px;
 }
 
 .cards img {
