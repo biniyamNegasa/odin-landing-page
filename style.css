@@ -146,3 +146,26 @@ ul {
     font-size: 21px;
     text-align: center;
 }
+
+.content-3 {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 150px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    color: #e5e7eb;
+}
+
+button.footer-sign-up {
+    border-style: solid;
+    border-color: #e5e7eb;
+    width: 100px;
+    height:30px;
+}
+
+.reminder {
+    font-size: 26px;
+    font-weight: bold;
+}
