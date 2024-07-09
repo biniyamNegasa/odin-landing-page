@@ -115,8 +115,9 @@ ul {
 }
 
 .cards img {
-    border: none;
+    border-style: solid;
     border-radius: 16px;
+    border-color: #3882f6;
 }
 
 .card {
